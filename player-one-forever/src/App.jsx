@@ -615,13 +615,6 @@ export default function App() {
       <Confetti active={page === "final"} />
 
       <main className="app-shell">
-        <header className="topbar">
-          <button className="brand" onClick={() => changePage("home")}>
-            <span>♥</span> PLAYER 1: MY FOREVER
-          </button>
-          <span className="top-tag">A GAME MADE WITH LOVE</span>
-        </header>
-
         {/* ─── HOME ─── */}
         {page === "home" && (
           <section className="hero panel" key="home">
@@ -825,11 +818,6 @@ export default function App() {
             <p className="tiny-note">Made with all my love, just for you.</p>
           </section>
         )}
-
-        <footer>
-          <span>MADE WITH ♥ JUST FOR YOU</span>
-          <span>NO REFUNDS ON THIS LOVE</span>
-        </footer>
 
         {/* ─── LETTER MODAL ─── */}
         {openedLetter !== null && (
