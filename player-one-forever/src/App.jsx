@@ -8,98 +8,112 @@ const NICKNAME  = "bachchu";
 /* ─── quiz data ─── */
 const questions = [
   {
-    question: "Who is always right in this relationship? 🤨",
-    options: [
-      "Me, obviously",
-      "Also me",
-      "Let me think... me",
-      "You, but don't get used to it",
-    ],
-    correct: 0,
-    joke: "Correct! Your intelligence is truly questionable. 😂",
+    question: "Which is the place we visited most?",
+    options: ["amts bus stop", "riverfront", "garden", "duekarty"],
+    correct: 0, // A
   },
   {
-    question: "What is your girlfriend's superpower? ✨",
-    options: [
-      "Reading minds",
-      "Being cute and annoying simultaneously",
-      "Stealing your food",
-      "All of the above",
-    ],
-    correct: 3,
-    joke: "Amazing! You have learned the ancient girlfriend lore. 💅",
+    question: "Which food we eat most?",
+    options: ["pizza", "chhole kulche", "waffle", "frankie"],
+    correct: 1, // B
   },
   {
-    question: "What should you do when she says 'I'm fine'? 👀",
-    options: [
-      "Run away",
-      "Ask what's wrong and listen",
-      "Start playing video games",
-      "Say 'okay' and sleep",
-    ],
-    correct: 1,
-    joke: "Good answer. Your survival instincts are improving. ❤️",
+    question: "What thing we liked the most previously?",
+    options: ["watching movie", "listing song", "playing game", "jamming at riverfront"],
+    correct: 3, // D
   },
   {
-    question: "What is your birthday reward? 🎁",
-    options: [
-      "A million dollars",
-      "Unlimited pizza",
-      "Unlimited love from me",
-      "All of the above, obviously",
-    ],
-    correct: 2,
-    joke: "You get unlimited love. The million dollars are still pending. 😂",
+    question: "What we eat when we met first time in colledge only you and me?",
+    options: ["pizza", "burger", "chinices", "sev usal"],
+    correct: 1, // B
   },
   {
-    question: "What's my favorite thing about you? 💖",
-    options: [
-      "Your smile",
-      "Your bad jokes",
-      "Everything, obviously",
-      "Your face when you're sleepy",
-    ],
-    correct: 2,
-    joke: "See? I love every single thing about you. No exceptions. 🥰",
+    question: "What you gifted on my last birthday?",
+    options: ["earings", "neckless", "kitchen", "bracelate"],
+    correct: 3, // D
   },
 ];
 
 /* ─── letters data ─── */
 const letters = [
   {
-    icon: "🥹",
+    icon: "🥺",
     title: "Open when you miss me",
     subtitle: "For the days when I'm not beside you",
-    message:
-      "Hey baby, if you miss me right now, imagine me giving you the biggest hug ever. Distance, busy days, or silly arguments cannot change how special you are to me. I'm always cheering for you. Sending you a thousand kisses. 💋",
+    message: `Missing me already? Wow, your taste is getting better. 😂❤️
+
+Unfortunately, I'm not available for delivery, so please manage with my pictures for now. 😌
+
+I know, I'm hard to forget.
+Even Google can't find someone better. 🤭❤️
+
+Take a deep breath. Close your eyes. Imagine me annoying you.
+Feeling better? You're welcome! 😂`,
   },
   {
-    icon: "😂",
+    icon: "😤",
     title: "Open when you're annoyed with me",
     subtitle: "An extremely important legal document",
-    message:
-      "Dear boyfriend, unfortunately, your girlfriend is cute, dramatic, and occasionally right. Your contract has no cancellation policy. Thank you for your cooperation. You may now hug me and stop pretending you're not smiling. 😂❤️",
+    message: `First of all, calm down.
+
+Secondly, you're probably overreacting.
+
+Thirdly, I'm still cute, so you can't stay angry for long. 😌😂
+
+Before you get angry, remember:
+I'm always right. Even when I'm wrong. Especially when I'm wrong. 🤣❤️`,
   },
   {
     icon: "🌧️",
     title: "Open when you're sad",
     subtitle: "A little reminder from your person",
-    message:
-      "You don't have to be strong every single moment. It's okay to have difficult days and take things slowly. I'm proud of you for all the things you do, including the little things nobody else notices. You deserve kindness, rest, and so much love. I'm in your corner, always. 🫶",
+    message: `Hey, you! 🥺❤️
+
+I know not every day is going to be perfect, but please don't forget how amazing you are.
+
+And remember, you've got one crazy person who's always cheering for you. That's me! ❤️
+
+Bad days are temporary, but my irritating presence in your life is permanent. 😂❤️
+
+So smile a little, okay?
+If today feels heavy, take a break.
+You don't have to figure everything out right now.
+
+Sending you unlimited hugs and one imaginary forehead kiss. 🫂❤️`,
   },
   {
     icon: "🤣",
     title: "Open when you need a laugh",
     subtitle: "Emergency boyfriend entertainment",
-    message:
-      "BREAKING NEWS: Local handsome man continues to be ridiculously cute despite being an absolute headache. Scientists recommend one hug, two kisses, and immediate contact with his girlfriend. Side effects include smiling like an idiot. 😂",
+    message: `Breaking News! 🚨
+A handsome boy has been found staring at his screen.
+Investigation reveals he's missing his favourite headache. ME! 😂
+
+Your daily reminder:
+You're handsome, intelligent, talented and lucky.
+Especially lucky because you have ME. 🤣
+
+If life gives you lemons, make lemonade.
+If life gives you problems, call me.`,
   },
   {
     icon: "💌",
     title: "Open on your birthday",
     subtitle: "The one I really want you to read",
-    message:
-      "Happy birthday, my love. ❤️ Out of all the people in this world, I'm so grateful that life brought you into mine. You make ordinary days feel special, make me laugh when I least expect it, and give me so many little moments to treasure. I hope this new year brings you happiness, peace, exciting adventures, and everything you've been wishing for. I hope I get to celebrate so many more birthdays with you. I love you more than this little website could ever explain. Today is your day, my favorite human. Never forget how loved you are. 💗",
+    message: `Happy Birthday, old man! 😂❤️
+Another year older, but don't worry, you're still my favourite idiot.
+I hope this year brings you everything you've been working for, endless happiness and lots of reasons to smile.
+And yes, you're stuck with me for another year. No cancellation policy! 🤭❤️
+
+I'll give you 10 more problems to forget the first one. 😂
+Today is the day the world received one more headache.
+And somehow, that headache became my favourite person. 😂❤️
+
+Happy Birthday! Never stop being you.
+
+Dear Birthday Boy,
+I wish you success, happiness, good health, unlimited money and a lifetime supply of patience.
+Because dealing with me requires a LOT of it. 🤣❤️`,
   },
 ];
 
@@ -405,8 +419,7 @@ function HeartCatchGame({ onComplete }) {
               <div className="result-icon">🥺</div>
               <p className="pink bold">TIME'S UP!</p>
               <p>
-                You caught {caught}/{GOAL} hearts. But don't worry — my
-                love doesn't have a time limit. Try again! 💕
+                You caught {caught}/{GOAL} hearts. You must unlock all {GOAL} hearts to see your letters!
               </p>
               <button
                 className="primary-button"
@@ -417,13 +430,7 @@ function HeartCatchGame({ onComplete }) {
                   setFallingHearts([]);
                 }}
               >
-                TRY AGAIN ↻
-              </button>
-              <button
-                className="text-button"
-                onClick={onComplete}
-              >
-                Skip and see your letters anyway 💌
+                RESTART ↻
               </button>
             </>
           )}
@@ -528,8 +535,8 @@ function StarField() {
 export default function App() {
   const [page, setPage] = useState("home");
   const [questionIndex, setQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [chosen, setChosen] = useState(null);
+  const [userAnswers, setUserAnswers] = useState(Array(questions.length).fill(null));
+  const [quizCompleted, setQuizCompleted] = useState(false);
   const [openedLetter, setOpenedLetter] = useState(null);
   const [heartBurst, setHeartBurst] = useState(0);
 
@@ -569,6 +576,13 @@ export default function App() {
   }, []);
 
   const question = questions[questionIndex];
+  const currentAnswer = userAnswers[questionIndex];
+
+  /* calculate score: +5 for correct, -5 for wrong */
+  const score = userAnswers.reduce((total, ans, idx) => {
+    if (ans === null) return total;
+    return ans === questions[idx].correct ? total + 5 : total - 5;
+  }, 0);
 
   function changePage(next) {
     setPage(next);
@@ -582,28 +596,33 @@ export default function App() {
   }
 
   function answerQuestion(index) {
-    if (chosen !== null) return;
-    setChosen(index);
-    if (index === question.correct) {
-      setScore((prev) => prev + 1);
-      setHeartBurst((b) => b + 1);
+    if (currentAnswer !== null) return;
+    const nextAnswers = [...userAnswers];
+    nextAnswers[questionIndex] = index;
+    setUserAnswers(nextAnswers);
+    setHeartBurst((b) => b + 1);
+  }
+
+  function prevQuestion() {
+    if (questionIndex > 0) {
+      setQuestionIndex((prev) => prev - 1);
     }
   }
 
   function nextQuestion() {
     if (questionIndex < questions.length - 1) {
       setQuestionIndex((prev) => prev + 1);
-      setChosen(null);
     } else {
-      changePage("minigame");
+      setQuizCompleted(true);
     }
   }
 
-  function restartGame() {
+  function restartAll() {
     setQuestionIndex(0);
-    setScore(0);
-    setChosen(null);
-    changePage("game");
+    setUserAnswers(Array(questions.length).fill(null));
+    setQuizCompleted(false);
+    setOpenedLetter(null);
+    changePage("home");
   }
 
   return (
@@ -628,12 +647,8 @@ export default function App() {
               <span>KUTRAAAA!</span>
             </h1>
             <p className="hero-copy">
-              so are you ready bachchu to play my game ?
+              aaj kaluu ka birthday haiiiiiiiii, jungleeee aaj 24 yearsss ka ho gayaaaa
             </p>
-            <div className="stats">
-              <span>♥ INFINITE LOVE</span>
-              <span>★ LEVEL: BIRTHDAY BOY</span>
-            </div>
 
             <div className="hero-buttons">
               <button
@@ -665,15 +680,13 @@ export default function App() {
                 <p className="no-msg-text">{noMsg}</p>
               </div>
             )}
-
-            <p className="tiny-note">WARNING: excessive cuteness ahead.</p>
           </section>
         )}
 
-        {/* ─── QUIZ ─── */}
-        {page === "game" && (
+        {/* ─── QUIZ QUESTIONS ─── */}
+        {page === "game" && !quizCompleted && (
           <section className="panel game-panel" key="game">
-            <p className="eyebrow">LEVEL 01 · THE BOYFRIEND TEST</p>
+            <p className="eyebrow">LEVEL 01</p>
             <div className="progress-track">
               <div
                 className="progress-fill"
@@ -694,15 +707,19 @@ export default function App() {
             <div className="answer-list">
               {question.options.map((option, index) => {
                 let className = "answer-button";
-                if (chosen !== null && index === question.correct)
-                  className += " answer-correct";
-                else if (chosen === index) className += " answer-wrong";
+                if (currentAnswer !== null) {
+                  if (index === question.correct) {
+                    className += " answer-correct";
+                  } else if (currentAnswer === index) {
+                    className += " answer-wrong";
+                  }
+                }
                 return (
                   <button
                     key={option}
                     className={className}
                     onClick={() => answerQuestion(index)}
-                    disabled={chosen !== null}
+                    disabled={currentAnswer !== null}
                   >
                     <span>{String.fromCharCode(65 + index)}.</span> {option}
                   </button>
@@ -710,24 +727,55 @@ export default function App() {
               })}
             </div>
 
-            {chosen !== null && (
+            {currentAnswer !== null && (
               <div className="feedback" role="status">
                 <p>
-                  {chosen === question.correct
-                    ? "✨ CORRECT ANSWER!"
-                    : "💗 NICE TRY, BIRTHDAY BOY!"}
+                  {currentAnswer === question.correct
+                    ? "ohhhh kaluuu ko pata thaaaaa"
+                    : "seeee! I new it jungleeee ko nhi pata hogaaaa"}
                 </p>
-                {question.joke}
-                <button className="primary-button" onClick={nextQuestion}>
-                  {questionIndex === questions.length - 1
-                    ? "NEXT LEVEL: CATCH THE HEARTS ♥"
-                    : "NEXT QUESTION →"}
-                </button>
               </div>
             )}
 
-            <button className="text-button" onClick={restartGame}>
-              ↻ Restart the game
+            <div className="quiz-nav-buttons">
+              <button
+                type="button"
+                className="secondary-button"
+                onClick={prevQuestion}
+                disabled={questionIndex === 0}
+              >
+                ← PREVIOUS
+              </button>
+              <button
+                type="button"
+                className="primary-button"
+                onClick={nextQuestion}
+                disabled={currentAnswer === null}
+              >
+                {questionIndex === questions.length - 1 ? "FINISH QUIZ ▶" : "NEXT →"}
+              </button>
+            </div>
+          </section>
+        )}
+
+        {/* ─── QUIZ RESULT SCREEN ─── */}
+        {page === "game" && quizCompleted && (
+          <section className="panel game-panel quiz-result-panel" key="quiz-complete">
+            <div className="pixel-heart" aria-hidden="true">
+              ♥
+            </div>
+            <p className="eyebrow">✦ LEVEL 01 COMPLETED ✦</p>
+            <div className="quiz-final-score">
+              <span>FINAL SCORE: {score} POINTS</span>
+            </div>
+            <h2 className="quiz-love-message">
+              Scoree jo bhiiiii hoooo , I will alwaysss love my kaluuuuuu
+            </h2>
+            <button
+              className="primary-button glow-btn"
+              onClick={() => changePage("minigame")}
+            >
+              NEXT LEVEL: CATCH THE HEARTS ▶
             </button>
           </section>
         )}
@@ -750,8 +798,7 @@ export default function App() {
               <span>YOU NEED ME 💌</span>
             </h1>
             <p className="hero-copy">
-              You unlocked {score} out of {questions.length} bonus
-              points. But the real prize is waiting in these envelopes.
+              Score: {score} points. But the real prize is waiting in these envelopes.
             </p>
 
             <div className="letter-grid">
@@ -791,29 +838,41 @@ export default function App() {
 
             <div className="final-letter">
               <p>To my favorite human,</p>
+              <p>Happy birthday, bachchu. 🥹❤️</p>
               <p>
-                Happy birthday, {NICKNAME}. 🥹❤️ I made this little corner
-                of the internet just for you because you deserve to feel
-                special, not just today, but every day.
+                I made this little corner of the internet just for you because you
+                deserve to feel special, not just today, but every day.
               </p>
               <p>
-                Thank you for being part of my life, for all our laughs,
-                all our memories, and all the little moments that mean
-                more to me than you know.
+                Thank you for being part of my life, for all our laughs, all our
+                memories, and all the little moments that mean more to me than
+                you know.
               </p>
               <p>
-                I hope your next chapter is full of beautiful surprises.
-                And I hope I get to annoy you through all of them.
+                And one thing I really want you to remember is that{" "}
+                <strong>I'm not going anywhere.</strong> I'll always be here for
+                you, standing beside you through every situation, every high and
+                low, and every little battle life throws your way. So please,
+                don't overthink things, okay? You don't have to figure everything
+                out alone. You've got me, always. ❤️
               </p>
-              <p className="signature">Forever on your team,</p>
-              <p className="signature">Your girl. ♥</p>
+              <p>
+                I hope your next chapter is full of beautiful surprises. And I
+                hope I get to annoy you through all of them. 😂
+              </p>
+              <p className="signature">
+                <strong>Forever on your team,</strong>
+              </p>
+              <p className="signature">
+                <strong>Your girl. ♥</strong>
+              </p>
             </div>
 
             <button
-              className="primary-button"
-              onClick={() => changePage("home")}
+              className="primary-button glow-btn"
+              onClick={restartAll}
             >
-              ↻ PLAY AGAIN, BIRTHDAY BOY
+              PLAY AGAIN
             </button>
             <p className="tiny-note">Made with all my love, just for you.</p>
           </section>

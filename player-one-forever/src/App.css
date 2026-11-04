@@ -426,6 +426,39 @@ h1 span {
   font-weight: 900;
 }
 
+.quiz-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.quiz-nav-buttons button {
+  flex: 1;
+}
+
+.quiz-result-panel {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quiz-final-score {
+  font-family: "Press Start 2P", monospace;
+  font-size: 13px;
+  color: var(--pink);
+  margin: 18px 0 10px;
+  letter-spacing: 0.5px;
+}
+.quiz-love-message {
+  font-size: clamp(20px, 3.8vw, 28px);
+  color: #fff;
+  line-height: 1.6;
+  margin: 20px 0 32px;
+  text-align: center;
+}
+
 /* ═══════════════════════════════════════════════
    MINI-GAME: CATCH THE HEARTS
    ═══════════════════════════════════════════════ */
